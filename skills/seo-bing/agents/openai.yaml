@@ -1,0 +1,4 @@
+interface:
+  display_name: "015 · 网站 Bing Webmaster 巡查"
+  short_description: "逐 URL 对照 Bing 索引、实时检测和当前网页，保留历史、证据与覆盖缺口"
+  default_prompt: "使用 $seo-bing 检查 网站 的 Bing Webmaster，把选定问题逐 URL 与线上页面核验，输出证据、修复方向和去重历史。"

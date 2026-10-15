@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "run_kind": "historical_fixture",
+  "selection": "explicit_opt_in_only",
+  "business_profile": "bingx",
+  "live_evidence": false,
+  "note": "Historical BingX sample for explicitly requested offline replay only. Select current-site URLs from the user or current profile inventory for live collection.",
+  "targets": [
+    {
+      "id": "P001",
+      "url": "https://bingx.com/en",
+      "template": null,
+      "performance": "移动/桌面各3次；trace可用才量化"
+    },
+    {
+      "id": "P005",
+      "url": "https://bingx.com/en/download",
+      "template": null,
+      "performance": "移动/桌面各3次；trace可用才量化"
+    },
+    {
+      "id": "P016",
+      "url": "https://bingx.com/en/market/all",
+      "template": null,
+      "performance": "移动/桌面各3次；trace可用才量化"
+    },
+    {
+      "id": "P023",
+      "url": "https://bingx.com/en/spot/BTCUSDT",
+      "template": null,
+      "performance": "移动/桌面各3次；trace可用才量化"
+    },
+    {
+      "id": "P062",
+      "url": "https://bingx.com/en/price/bitcoin",
+      "template": null,
+      "performance": "移动/桌面各3次；trace可用才量化"
+    },
+    {
+      "id": "P071",
+      "url": "https://bingx.com/en/how-to-buy/bitcoin",
+      "template": null,
+      "performance": "移动/桌面各3次；trace可用才量化"
+    },
+    {
+      "id": "P092",
+      "url": "https://bingx.com/en/learn/article/how-to-start-copy-trading-on-bingx",
+      "template": null,
+      "performance": "移动/桌面各3次；trace可用才量化"
+    },
+    {
+      "id": "P094",
+      "url": "https://bingx.com/en/wiki/detail/demo-trading",
+      "template": null,
+      "performance": "移动/桌面各3次；trace可用才量化"
+    }
+  ]
+}

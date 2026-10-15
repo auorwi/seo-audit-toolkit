@@ -1,0 +1,4 @@
+interface:
+  display_name: "014 · 网站 GSC 专项巡查"
+  short_description: "对照 Google 索引快照与线上页面，保留逐 URL 证据、缺口和稳定问题历史"
+  default_prompt: "使用 $seo-gsc 审查 网站 的 Google Search Console，并将所选问题逐 URL 对照线上页面，输出有证据和修复方向的报告。"

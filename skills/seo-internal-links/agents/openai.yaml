@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 009 · 内链与发现路径"
+  short_description: "核验实际链接、全部观察来源、分页直达与目标响应，输出可追溯的修复清单"
+  default_prompt: "使用 $seo-internal-links 审查本轮 网站 源页面及目标，核验分页和发现路径并输出修复报告。"

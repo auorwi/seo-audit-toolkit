@@ -1,0 +1,4 @@
+interface:
+  display_name: "002 · 网站 Sitemap 检查"
+  short_description: "核对 Sitemap 文件、线上条目和独立预期清单，保留问题证据与历史"
+  default_prompt: "使用 $seo-sitemap 检查 网站 的 Sitemap，逐项核对可用线上证据并输出修复清单及未检查范围。"

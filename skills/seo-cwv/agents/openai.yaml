@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 011 Core Web Vitals"
+  short_description: "核验真实用户与实验室性能、重复测量、资源节点及回归证据"
+  default_prompt: "使用 $seo-cwv 按明确样本与设备检查 网站 性能，保留全部失败和原始证据并输出修复报告。"

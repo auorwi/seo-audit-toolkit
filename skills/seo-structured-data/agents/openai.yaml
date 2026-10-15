@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 008 · 结构化数据与实体图"
+  short_description: "逐URL核验结构化声明、可见事实与进入路径，分开报告语法、资格和展示证据"
+  default_prompt: "使用 $seo-structured-data 审查本轮 网站 URL 的结构化数据，对照实际页面并输出有证据的修复方案。"

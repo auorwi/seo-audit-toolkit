@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 007 · TDK与搜索意图"
+  short_description: "核对标题描述与实际实体、模板和意图，保留重复聚类、草稿与历史"
+  default_prompt: "使用 $seo-tdk 检查指定 网站 URL 的标题、描述和目标主题，逐一核对实际页面与事实来源，输出修复建议、待审改写及覆盖缺口。"

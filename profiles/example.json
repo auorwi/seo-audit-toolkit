@@ -1,0 +1,11 @@
+{
+  "site": "example.com",
+  "allowed_hosts": [
+    "example.com"
+  ],
+  "seeds": [
+    "https://example.com/"
+  ],
+  "sitemaps": [],
+  "business_profile": "generic"
+}

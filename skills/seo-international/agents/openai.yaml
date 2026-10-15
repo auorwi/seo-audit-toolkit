@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 010 技术国际化"
+  short_description: "核验多语言声明、正文、canonical与语言切换并保留实际证据"
+  default_prompt: "使用 $seo-international 对指定 网站 页面逐一核验技术国际化问题，补齐线上证据并输出修复报告。"

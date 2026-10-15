@@ -1,0 +1,9 @@
+{
+  "name": "seo-audit-browser-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "playwright": "1.63.0",
+    "axe-core": "4.13.0"
+  }
+}

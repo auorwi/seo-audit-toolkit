@@ -1,0 +1,7 @@
+{
+  "name": "lhci-0.15.1",
+  "private": true,
+  "dependencies": {
+    "@lhci/cli": "0.15.1"
+  }
+}

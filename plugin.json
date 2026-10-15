@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "seo-audit-toolkit",
+  "version": "0.1.0",
+  "description": "Evidence-based SEO specialist skills with explicit site profiles and local reporting for Codex.",
+  "author": {"name": "auorwi"},
+  "repository": "https://github.com/auorwi/seo-audit-toolkit",
+  "license": "MIT",
+  "keywords": ["seo", "audit", "codex", "skills"],
+  "extensions": {"com.openai": {"onboardingSkill": "./skills/seo-setup/SKILL.md"}}
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO Setup"
+  short_description: "Install dependencies and configure a target website"
+  default_prompt: "Use $seo-setup to configure the SEO toolkit for my website."

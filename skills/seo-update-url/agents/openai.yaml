@@ -1,0 +1,4 @@
+interface:
+  display_name: "001 · 网站 updateURL"
+  short_description: "更新 网站 URL 与路由资产，保留来源、历史差异和检查覆盖"
+  default_prompt: "使用 $seo-update-url 更新 网站 的 URL 资产清单，保留历史来源并输出新增、缺失候选和未检查范围。"

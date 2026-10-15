@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 003 · 可抓取性与索引指令"
+  short_description: "核验 robots、HTTP 与 noindex，保留逐 URL 证据及问题历史"
+  default_prompt: "使用 $seo-crawlability 审查指定 网站 URL，补齐真实证据并生成去重报告。"

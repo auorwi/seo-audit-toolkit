@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 005 · 渲染与交互审查"
+  short_description: "核验初始与渲染内容、进入路径和公开交互，保留证据与覆盖缺口"
+  default_prompt: "使用 $seo-rendering 对指定 网站 URL 检查真实渲染和公开交互，输出证据、修复建议和未检查范围。"

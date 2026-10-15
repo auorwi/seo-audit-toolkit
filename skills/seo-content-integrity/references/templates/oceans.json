@@ -1,0 +1,133 @@
+{
+  "mainSelector": "main",
+  "identitySelector": "h1",
+  "placeholderSelector": ".loading,.skeleton,[aria-busy=\"true\"]",
+  "errorSelector": ".error-page",
+  "timeoutMs": 20000,
+  "stableWindowMs": 1000,
+  "sampleIntervalMs": 250,
+  "dynamicTitle": true,
+  "expectedIdentity": "Kalkulator Konversi OceansGallerie On SUI EUR: Konversi OCEANS ke EUR",
+  "kinds": [
+    "calculator",
+    "claim"
+  ],
+  "fieldSelectors": {
+    "body": ".convert-header .paragraph",
+    "updated": ".updateTime-content",
+    "live": ".exchange-tip",
+    "rates": ".top-section",
+    "input": ".exchange-box > .input-row:first-child > input",
+    "output": ".exchange-box > .input-row:last-child > input",
+    "input_unit": ".exchange-box > .input-row:first-child .symbol-name",
+    "output_unit": ".exchange-box > .input-row:last-child .symbol-name",
+    "rate": ".convert-header .paragraph"
+  },
+  "requiredFields": {
+    "body": {
+      "pattern": "OCEANS"
+    },
+    "updated": {
+      "nonEmpty": true
+    }
+  },
+  "interactionDwellMs": 1200,
+  "trials": [
+    {
+      "inputSelector": ".exchange-box > .input-row:first-child > input",
+      "quantity": "1",
+      "direction": "asset_to_quote",
+      "fieldSelectors": {
+        "body": ".convert-header .paragraph",
+        "updated": ".updateTime-content",
+        "live": ".exchange-tip",
+        "rates": ".top-section",
+        "input": ".exchange-box > .input-row:first-child > input",
+        "output": ".exchange-box > .input-row:last-child > input",
+        "input_unit": ".exchange-box > .input-row:first-child .symbol-name",
+        "output_unit": ".exchange-box > .input-row:last-child .symbol-name",
+        "rate": ".convert-header .paragraph"
+      }
+    },
+    {
+      "inputSelector": ".exchange-box > .input-row:last-child > input",
+      "quantity": "1",
+      "direction": "quote_to_asset",
+      "fieldSelectors": {
+        "body": ".convert-header .paragraph",
+        "updated": ".updateTime-content",
+        "live": ".exchange-tip",
+        "rates": ".top-section",
+        "input": ".exchange-box > .input-row:last-child > input",
+        "output": ".exchange-box > .input-row:first-child > input",
+        "input_unit": ".exchange-box > .input-row:last-child .symbol-name",
+        "output_unit": ".exchange-box > .input-row:first-child .symbol-name",
+        "rate": ".convert-header .paragraph"
+      }
+    },
+    {
+      "inputSelector": ".exchange-box > .input-row:first-child > input",
+      "quantity": "10",
+      "direction": "asset_to_quote",
+      "fieldSelectors": {
+        "body": ".convert-header .paragraph",
+        "updated": ".updateTime-content",
+        "live": ".exchange-tip",
+        "rates": ".top-section",
+        "input": ".exchange-box > .input-row:first-child > input",
+        "output": ".exchange-box > .input-row:last-child > input",
+        "input_unit": ".exchange-box > .input-row:first-child .symbol-name",
+        "output_unit": ".exchange-box > .input-row:last-child .symbol-name",
+        "rate": ".convert-header .paragraph"
+      }
+    },
+    {
+      "inputSelector": ".exchange-box > .input-row:last-child > input",
+      "quantity": "10",
+      "direction": "quote_to_asset",
+      "fieldSelectors": {
+        "body": ".convert-header .paragraph",
+        "updated": ".updateTime-content",
+        "live": ".exchange-tip",
+        "rates": ".top-section",
+        "input": ".exchange-box > .input-row:last-child > input",
+        "output": ".exchange-box > .input-row:first-child > input",
+        "input_unit": ".exchange-box > .input-row:last-child .symbol-name",
+        "output_unit": ".exchange-box > .input-row:first-child .symbol-name",
+        "rate": ".convert-header .paragraph"
+      }
+    },
+    {
+      "inputSelector": ".exchange-box > .input-row:first-child > input",
+      "quantity": "1000",
+      "direction": "asset_to_quote",
+      "fieldSelectors": {
+        "body": ".convert-header .paragraph",
+        "updated": ".updateTime-content",
+        "live": ".exchange-tip",
+        "rates": ".top-section",
+        "input": ".exchange-box > .input-row:first-child > input",
+        "output": ".exchange-box > .input-row:last-child > input",
+        "input_unit": ".exchange-box > .input-row:first-child .symbol-name",
+        "output_unit": ".exchange-box > .input-row:last-child .symbol-name",
+        "rate": ".convert-header .paragraph"
+      }
+    },
+    {
+      "inputSelector": ".exchange-box > .input-row:last-child > input",
+      "quantity": "1000",
+      "direction": "quote_to_asset",
+      "fieldSelectors": {
+        "body": ".convert-header .paragraph",
+        "updated": ".updateTime-content",
+        "live": ".exchange-tip",
+        "rates": ".top-section",
+        "input": ".exchange-box > .input-row:last-child > input",
+        "output": ".exchange-box > .input-row:first-child > input",
+        "input_unit": ".exchange-box > .input-row:last-child .symbol-name",
+        "output_unit": ".exchange-box > .input-row:first-child .symbol-name",
+        "rate": ".convert-header .paragraph"
+      }
+    }
+  ]
+}

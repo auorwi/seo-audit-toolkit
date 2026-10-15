@@ -1,0 +1,1 @@
+{"schema_version": 1, "scope": [{"url": "https://bingx.com/en/price/bitcoin", "kinds": ["pair"]}], "captures": [{"path": "capture.json", "bytes": 580, "sha256": "7e5107a8dbd7c628d20f2c6dcfc62b94810674b6e16047fe49c4875278de9f75"}], "reviews": [{"path": "review.json", "bytes": 1246, "sha256": "7abaa7f81bf1c767ce6008f6b6c209ec511ca4f67b1c5091d4869b86b9dfb895"}], "actions": []}

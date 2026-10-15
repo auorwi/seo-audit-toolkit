@@ -1,0 +1,29 @@
+{
+  "mainSelector": "main",
+  "identitySelector": "h1",
+  "placeholderSelector": ".loading,.skeleton,[aria-busy=\"true\"]",
+  "errorSelector": ".error-page",
+  "timeoutMs": 20000,
+  "stableWindowMs": 1000,
+  "sampleIntervalMs": 250,
+  "dynamicTitle": true,
+  "expectedIdentity": "Wrestler (WRESTLER) Price",
+  "kinds": [
+    "pair",
+    "claim"
+  ],
+  "fieldSelectors": {
+    "body": "#today > .content",
+    "market": ".today-price-container",
+    "supply": ".today-price-container .item:has(.icon.idx-2)",
+    "about": "#about"
+  },
+  "requiredFields": {
+    "body": {
+      "pattern": "circulating supply"
+    },
+    "market": {
+      "pattern": "Circulating Supply"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mainSelector": "article.article",
+  "identitySelector": "h1.title",
+  "placeholderSelector": ".loading,.skeleton,[aria-busy=\"true\"]",
+  "errorSelector": ".error-page",
+  "timeoutMs": 20000,
+  "stableWindowMs": 1000,
+  "sampleIntervalMs": 250,
+  "dynamicTitle": true,
+  "expectedIdentity": "How to Start Copy Trading on BingX: A Beginner's Guide",
+  "maxImages": 300,
+  "maxCssElements": 5000,
+  "decodeTimeoutMs": 600,
+  "scrollSelector": "iframe[src=\"https://www.youtube.com/embed/jCo3-MtpA8Y\"]"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 017 · 修复复测"
+  short_description: "按原问题ID核验修复前后证据、部署与变体，保留复发和引擎更新状态"
+  default_prompt: "使用 $seo-recheck 按指定问题ID重新核验 网站 的修复结果，逐项对照原证据并保留未覆盖范围。"

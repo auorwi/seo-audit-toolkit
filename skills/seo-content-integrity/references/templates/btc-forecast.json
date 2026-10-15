@@ -1,0 +1,43 @@
+{
+  "mainSelector": ".price-prediction-wrapper",
+  "identitySelector": "h1",
+  "placeholderSelector": ".loading,.skeleton,[aria-busy=\"true\"]",
+  "errorSelector": ".error-page",
+  "timeoutMs": 20000,
+  "stableWindowMs": 1000,
+  "sampleIntervalMs": 250,
+  "dynamicTitle": true,
+  "expectedIdentity": "Bitcoin BTC Price Prediction",
+  "kinds": [
+    "forecast"
+  ],
+  "fieldSelectors": {
+    "summary": ".prediction-table-wrapper .desc",
+    "table": ".prediction-table-wrapper .table-wrapper",
+    "growth": ".rate-input-value input",
+    "price": ".todayPrice-wrapper .price"
+  },
+  "requiredFields": {
+    "table": {
+      "pattern": "2031"
+    },
+    "price": {
+      "pattern": "[0-9]"
+    }
+  },
+  "scenarioTrials": [
+    {
+      "inputSelector": ".rate-input-value input",
+      "growthPercent": "1"
+    },
+    {
+      "inputSelector": ".rate-input-value input",
+      "growthPercent": "2"
+    },
+    {
+      "inputSelector": ".rate-input-value input",
+      "growthPercent": "5"
+    }
+  ],
+  "interactionDwellMs": 1200
+}

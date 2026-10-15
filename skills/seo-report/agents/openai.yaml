@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 SEO 018 · 报告与飞书"
+  short_description: "汇总专业审查证据与复查，维护去重台账并幂等发布飞书报告"
+  default_prompt: "使用 $seo-report 汇总本期 网站 审查结果，保留证据缺口与原问题编号，仅在用户明确要求发布时写入飞书并回读核对。"

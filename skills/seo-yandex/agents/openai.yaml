@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 016 · Yandex 审查"
+  short_description: "核验Yandex诊断与逐URL线上证据，区分数据库、设备、JS模式和待核验问题"
+  default_prompt: "使用 $seo-yandex 核查 网站 的 Yandex 后台问题，逐个对照已选 URL 的线上响应与正文并输出证据报告。"

@@ -1,0 +1,52 @@
+name: Test toolkit
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  offline:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ['3.10', '3.14']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: python seo.py test --log-dir test-logs
+      - run: python scripts/package_check.py
+      - run: python scripts/install_smoke.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: logs-${{ matrix.os }}-${{ matrix.python }}
+          path: test-logs
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: python seo.py setup --extras browser structured --runtime-dir "$RUNNER_TEMP/seo-runtime"
+      - run: node "$RUNNER_TEMP/seo-runtime/browser/node_modules/playwright/cli.js" install-deps chromium
+      - run: python seo.py doctor --runtime-dir "$RUNNER_TEMP/seo-runtime" --probe-browser
+      - run: python scripts/browser_smoke.py --runtime-dir "$RUNNER_TEMP/seo-runtime"
+  public-http:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/public_smoke.py --output "$RUNNER_TEMP/public-smoke"

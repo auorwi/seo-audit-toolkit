@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 013 图片与视频"
+  short_description: "核验图片、响应式选图与视频资源，保留用途证据、缺口和问题历史"
+  default_prompt: "使用 $seo-media 按指定 网站 URL 核验实际媒体资源与用途，区分设备和采集阶段，输出证据、修复建议、未核验范围与稳定问题历史。"

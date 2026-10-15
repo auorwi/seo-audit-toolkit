@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站 004 · Canonical 与路由"
+  short_description: "核验规范目标、业务参数和路由实体，保存关系图、真实证据与问题历史"
+  default_prompt: "使用 $seo-canonical-routing 核验指定 网站 页面与 canonical 目标的实际关系，输出证据和修复建议。"

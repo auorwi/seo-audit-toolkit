@@ -1,0 +1,8 @@
+{
+  "source": "https://raw.githubusercontent.com/pycountry/pycountry/main/src/pycountry/databases/iso3166-1.json",
+  "provider": "pycountry maintained ISO dataset based on iso-codes; not a live ISO certification service",
+  "retrieved_at": "2026-09-16T19:54:03.898367+00:00",
+  "sha256": "f01b812b57fba9f31ff621bf33e7c7570a01964dbeb5be2167e94decf538c89f",
+  "bytes": 43284,
+  "count": 249
+}

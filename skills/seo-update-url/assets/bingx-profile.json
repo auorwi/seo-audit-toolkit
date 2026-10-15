@@ -1,0 +1,24 @@
+{
+  "site": "bingx.com",
+  "allowed_hosts": [
+    "bingx.com",
+    "www.bingx.com",
+    "blog.bingx.com",
+    "fiat.bingx.com"
+  ],
+  "seeds": [
+    "https://bingx.com/en",
+    "https://bingx.com/en/price",
+    "https://bingx.com/en/learn",
+    "https://bingx.com/en/support"
+  ],
+  "sitemaps": [
+    "https://bingx.com/sitemap.xml"
+  ],
+  "excluded_path_patterns": [
+    "^/(?:[A-Za-z]{2}(?:-[A-Za-z]{2})?/)?(?:login|register|sign-in|sign-up|search|account|api)(?:/|$)"
+  ],
+  "query_variants_per_path": 2,
+  "business_profile": "bingx",
+  "brand": "BingX"
+}

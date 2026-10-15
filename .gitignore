@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+node_modules/
+/data/
+/reports/
+*.sqlite
+*.sqlite-*
+.env
+.env.*
+!.env.example
+.superpowers/
+/dist/
+/test-logs/

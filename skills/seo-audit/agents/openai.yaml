@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO Audit"
+  short_description: "Run scoped website checks and preserve evidence"
+  default_prompt: "Use $seo-audit to inspect my website and produce a local report."

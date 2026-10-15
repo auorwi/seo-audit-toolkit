@@ -1,0 +1,37 @@
+> Historical/opt-in BingX example. Apply to generic sites only after replacing URLs, selectors, and business assumptions with current evidence from the selected profile; never auto-import example evidence.
+
+# 性能证据合同
+
+manifest schema_version=1，数组lab_runs、field_records、field_attempts、expected_cells、page_reviews、collection_events。文件证明为path/bytes/sha256，相对manifest目录，禁止越界，单文件上限8MB；超过上限保留缺口，不能静默截断LHR再当完整数据。
+
+## 实验室
+
+lab_runs每条保存run_id、url、state、started_at、finished_at，以及attempt_evidence、lhr_evidence、context_evidence。三类文件分别为实际LHCI尝试元数据、原始LHR与cell.json上下文。请求URL、LHR SHA、运行ID和时间范围必须匹配；manifest手写metrics不参与判断。失败/中断未有LHR的尝试仍保留，不转成0分或健康0ms。
+
+配置在plan.json，单元原始产物在cells目录。LHCI内部的每次重试由固定版本hook记录，包括失败stdout/stderr；不只保留最终成功LHR。context含实际工具版本、主机ID、入口、网络位置说明、缓存与登录状态，cell保存负载。只比较环境键相同的测量；benchmarkIndex正常变化不拆组，但应关注显著负载波动。
+
+LHR使用audits.numericValue与numericUnit，不从displayValue解析本地化数字。LCP/CLS为必需实验室指标；TBT是辅助指标，INP保持空。LHR有runtimeError、错误落地、文档4xx/5xx、字段缺失或单位错误时，不算有效目标测量。原始HTTP状态与正文业务有效性分别记录；当前机器解析的page_content_validity=unverified_by_metrics，需要Codex对截图/节点补判断。
+
+Node测量截图存于原始LHR的fullPageScreenshot；可解码为本地图片检查，不要把测量后的节点boundingRect=0推断成该节点从未在加载过程中成为LCP。模拟节流numericValue与trace中观察时序可能不同，必须标清来源。
+
+page_reviews是复核JSON文件证明数组。每份复核必须有run_id、lhr_sha256、requested_url、final_url、screenshot_sha256、reviewed_at、reviewer、method、status、expected_content、visible_evidence、reason。method为codex_screenshot_review或human_screenshot_review；status为valid/invalid/inconclusive。截图SHA计算对象为原始LHR.fullPageScreenshot.screenshot.data的base64解码字节；复核必须晚于该次采集结束。只有实际看到图片后才填写可见证据。绑定证明了引用的是哪张截图，并不自动证明复核判断正确。
+
+将复核文件放在采集目录子目录，用新reviewed-manifest.json复制原始lab_runs并添加page_reviews；保留原始manifest。复核与测量必须在同一manifest内，单独作为supplement的孤立review不能跨manifest偷偷绑定。相同文件的重复引用去重，不同复核冲突保持未确认。invalid记录保留原始指标但不计目标业务有效次数，并产生稳定问题；inconclusive保留实验室观察而不完成业务覆盖。报告中的实验室覆盖、业务页面复核覆盖、真实用户覆盖分别计算。
+
+## 真实用户
+
+field_records每条source为crux_api/psi_api，evidence指向实际响应，query_evidence指向实际请求元数据（request不含key、observed_at、HTTP status）。只有成功HTTP与匹配来源/URL/设备的记录进入正常观察；API错误与无样本单独保留。
+
+CrUX p75来自record.metrics.*.percentiles.p75；CLS是无单位十进制字符串。collectionPeriod包含firstDate/lastDate，保留28日聚合窗口，不假定每一天都有样本。record.key的URL与origin不混用，标准化URL必须有urlNormalizationDetails。
+
+PSI loadingExperience与originLoadingExperience分别保存；指标采用其percentile。CLS在响应分布边界为10/25时按百分之一缩放，无法证实单位时保持未知；不拿FCP/FID替代INP。API没提供准确统计窗口时不编造起止日期，可通过明确来源补证据，当前自动审查保持窗口未知。
+
+field_attempts保存缺授权、网络失败、HTTP响应等采集状态。未发送请求的授权缺口不会伪装成服务端403；原始API429也不解释为BingX网站429。
+
+## 覆盖与回归
+
+expected_cells列明确url/device/minimum_valid_runs=3；计划单元全部保留，即使未运行。重复文件SHA或run_id不增加样本数；不同设备/环境不合并。四次有效测量会使用全部四次，不选最优三次。
+
+baseline为此前011原始报告JSON，记录其路径、字节数、SHA；环境相同且前后样本充足才计算变化。代码中的实验室预算和回归预算是工程排查规则，不是排名阈值或真实用户CWV认证。
+
+collection_events引用每单元实际host_preflight JSON，包含observed_at、cell_id、URL/device和quality原始load/CPU数据。导入时重新计算环境判断，不相信手写的healthy标签。cell.json中的load_before/load_after/cpu_count分别用于判断测量环境；任一1分钟load/CPU>2则标记high_host_load，缺值则environment_data_missing。此类数值仍列出，但组的suitable_for_regression=false，不用于回归改善/退化判定。laboratory_scope_complete、business_page_scope_complete、reliable_lab_scope_complete、field_scope_complete是不同的覆盖项；任何一个都不证明全站无问题。

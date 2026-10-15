@@ -1,0 +1,1038 @@
+[
+  {
+    "url": "https://bingx.com/en",
+    "id": "P001",
+    "page_type": "英语首页",
+    "family": "首页",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/about",
+    "id": "P002",
+    "page_type": "公司介绍",
+    "family": "独立/其他｜about",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/balance-reserve",
+    "id": "P003",
+    "page_type": "储备证明",
+    "family": "独立/其他｜balance-reserve",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/why-trust-us",
+    "id": "P004",
+    "page_type": "信任说明",
+    "family": "独立/其他｜why-trust-us",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/download",
+    "id": "P005",
+    "page_type": "下载页",
+    "family": "独立/其他｜download",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/bingxai",
+    "id": "P006",
+    "page_type": "AI产品入口",
+    "family": "独立/其他｜bingxai",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/vip/introduction",
+    "id": "P007",
+    "page_type": "VIP介绍",
+    "family": "独立/其他｜vip/introduction",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/official-verification",
+    "id": "P008",
+    "page_type": "官方验证",
+    "family": "独立/其他｜official-verification",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/bingx-labs",
+    "id": "P009",
+    "page_type": "Labs",
+    "family": "独立/其他｜bingx-labs",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/community",
+    "id": "P010",
+    "page_type": "社区",
+    "family": "独立/其他｜community",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/sponsorship",
+    "id": "P011",
+    "page_type": "赞助",
+    "family": "独立/其他｜sponsorship",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/careers",
+    "id": "P012",
+    "page_type": "招聘",
+    "family": "独立/其他｜careers",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/global-partner",
+    "id": "P013",
+    "page_type": "合作伙伴",
+    "family": "独立/其他｜global-partner",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/listing-fasttrack",
+    "id": "P014",
+    "page_type": "Listing FastTrack",
+    "family": "独立/其他｜listing-fasttrack",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/coin-apply",
+    "id": "P015",
+    "page_type": "上币申请旧入口",
+    "family": "独立/其他｜coin-apply",
+    "group": "品牌与公共入口"
+  },
+  {
+    "url": "https://bingx.com/en/market/all",
+    "id": "P016",
+    "page_type": "市场总览",
+    "family": "市场｜all",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/market/spot",
+    "id": "P017",
+    "page_type": "现货市场",
+    "family": "市场｜spot",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/market/futures",
+    "id": "P018",
+    "page_type": "合约市场",
+    "family": "市场｜futures",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/market/tradfi",
+    "id": "P019",
+    "page_type": "TradFi市场",
+    "family": "市场｜tradfi",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/market/new-listings",
+    "id": "P020",
+    "page_type": "新上线",
+    "family": "市场｜new-listings",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/market/spot/meme",
+    "id": "P021",
+    "page_type": "现货Meme板块",
+    "family": "市场｜spot/板块",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/market/spot/xstocks",
+    "id": "P022",
+    "page_type": "现货代币化股票板块",
+    "family": "市场｜spot/板块",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/spot/BTCUSDT",
+    "id": "P023",
+    "page_type": "现货BTC",
+    "family": "交易｜spot/品种",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/perpetual/BTC-USDT",
+    "id": "P024",
+    "page_type": "USDT永续BTC",
+    "family": "交易｜perpetual/品种",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/perpetual/BTC-USD",
+    "id": "P025",
+    "page_type": "币本位BTC",
+    "family": "交易｜perpetual/品种",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/futures/forward/BTCUSDT",
+    "id": "P026",
+    "page_type": "旧标准合约BTC",
+    "family": "交易｜futures/forward",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/tradfi/overview",
+    "id": "P027",
+    "page_type": "TradFi新总览",
+    "family": "TradFi｜overview",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/tradfi/cfd/XAUUSD",
+    "id": "P028",
+    "page_type": "CFD黄金新入口",
+    "family": "TradFi｜cfd",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/tradfi/perpetual/NCCOGOLD2USD-USDT",
+    "id": "P029",
+    "page_type": "TradFi黄金永续新入口",
+    "family": "TradFi｜perpetual",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/futures/commodities/GOLDUSD",
+    "id": "P030",
+    "page_type": "旧GOLDUSD入口",
+    "family": "交易｜futures/commodities",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/futures/forex/EURCAD",
+    "id": "P031",
+    "page_type": "旧EURCAD入口",
+    "family": "交易｜futures/forex",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/perpetual/BTC-USDC",
+    "id": "P032",
+    "page_type": "USDC永续",
+    "family": "交易｜perpetual/品种",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/perpetual/BTC-USDT?demo=1",
+    "id": "P033",
+    "page_type": "模拟交易参数",
+    "family": "交易｜perpetual/品种",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/stocks/overview",
+    "id": "P034",
+    "page_type": "股票总览",
+    "family": "独立/其他｜stocks/overview",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/tradeInfo/perpetual/contract-rules/BTC-USDT",
+    "id": "P035",
+    "page_type": "合约规则",
+    "family": "交易规则｜perpetual/contract-rules",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/how-to-trade-commodity-futures",
+    "id": "P036",
+    "page_type": "商品教学落地页",
+    "family": "独立/其他｜how-to-trade-commodity-futures",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/gold-futures-trading",
+    "id": "P037",
+    "page_type": "黄金交易落地页",
+    "family": "独立/其他｜gold-futures-trading",
+    "group": "市场与交易"
+  },
+  {
+    "url": "https://bingx.com/en/CopyTrading",
+    "id": "P038",
+    "page_type": "跟单首页",
+    "family": "跟单｜入口",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/CopyTrading?type=spot",
+    "id": "P039",
+    "page_type": "现货跟单参数版",
+    "family": "跟单｜入口",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/CopyTrading/cfd?from=header_copy_menu",
+    "id": "P040",
+    "page_type": "CFD跟单",
+    "family": "跟单｜cfd",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/CopyTrading/leaderBoard",
+    "id": "P041",
+    "page_type": "排行榜导航版",
+    "family": "跟单｜leaderBoard",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/CopyTrading/leaderboard",
+    "id": "P042",
+    "page_type": "排行榜Sitemap版",
+    "family": "跟单｜leaderboard",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/bot-trading",
+    "id": "P043",
+    "page_type": "新机器人入口",
+    "family": "独立/其他｜bot-trading",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/trading-bots/martin",
+    "id": "P044",
+    "page_type": "旧马丁机器人入口",
+    "family": "独立/其他｜trading-bots/martin",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/CopyTrading/recruiting",
+    "id": "P045",
+    "page_type": "交易员招募",
+    "family": "跟单｜recruiting",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/strategy",
+    "id": "P046",
+    "page_type": "策略入口",
+    "family": "独立/其他｜strategy",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/signalTrade",
+    "id": "P047",
+    "page_type": "信号交易",
+    "family": "独立/其他｜signalTrade",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/tradingview",
+    "id": "P048",
+    "page_type": "TradingView",
+    "family": "独立/其他｜tradingview",
+    "group": "跟单与交易工具"
+  },
+  {
+    "url": "https://bingx.com/en/wealth/earn",
+    "id": "P049",
+    "page_type": "Earn",
+    "family": "财富｜earn",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/wealth/loan",
+    "id": "P050",
+    "page_type": "Loan",
+    "family": "财富｜loan",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/wealth/dual-investment",
+    "id": "P051",
+    "page_type": "Dual investment",
+    "family": "财富｜dual-investment",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/xpool/overview",
+    "id": "P052",
+    "page_type": "Xpool总览",
+    "family": "发行/矿池｜xpool/overview",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/xpool/detail?currency=84",
+    "id": "P053",
+    "page_type": "Xpool详情",
+    "family": "发行/矿池｜xpool/detail",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/launchpad/overview",
+    "id": "P054",
+    "page_type": "Launchpad总览",
+    "family": "发行/矿池｜launchpad/overview",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/launchpad/detail?currency=78",
+    "id": "P055",
+    "page_type": "Launchpad详情",
+    "family": "发行/矿池｜launchpad/detail",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/launchpool",
+    "id": "P056",
+    "page_type": "Launchpool",
+    "family": "独立/其他｜launchpool",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/pre-market",
+    "id": "P057",
+    "page_type": "盘前总览",
+    "family": "盘前｜入口",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/pre-market/ALEO",
+    "id": "P058",
+    "page_type": "盘前品种详情",
+    "family": "盘前｜品种",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/wealth/margin",
+    "id": "P059",
+    "page_type": "Margin",
+    "family": "财富｜margin",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/cards",
+    "id": "P060",
+    "page_type": "Cards",
+    "family": "独立/其他｜cards",
+    "group": "财富与发行产品"
+  },
+  {
+    "url": "https://bingx.com/en/price",
+    "id": "P061",
+    "page_type": "币价总目录",
+    "family": "币价｜列表",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/price/bitcoin",
+    "id": "P062",
+    "page_type": "BTC币价",
+    "family": "币价｜币种详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/price/ripple",
+    "id": "P063",
+    "page_type": "XRP币价",
+    "family": "币价｜币种详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/price/wrestler",
+    "id": "P064",
+    "page_type": "普通资产币价",
+    "family": "币价｜币种详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/price/nxm",
+    "id": "P065",
+    "page_type": "NXM币价",
+    "family": "币价｜币种详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/price/bitcoin/price-prediction",
+    "id": "P066",
+    "page_type": "BTC预测",
+    "family": "币价｜价格预测",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/price/neutra-finance/price-prediction",
+    "id": "P067",
+    "page_type": "Neutra预测",
+    "family": "币价｜价格预测",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/price/geoleaf-io/historical-data",
+    "id": "P068",
+    "page_type": "历史价格",
+    "family": "币价｜历史数据",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/price/page/2116",
+    "id": "P069",
+    "page_type": "深层币价分页",
+    "family": "币价｜分页",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/how-to-buy/all-coins",
+    "id": "P070",
+    "page_type": "购买指南目录",
+    "family": "购买指南｜目录",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/how-to-buy/bitcoin",
+    "id": "P071",
+    "page_type": "BTC购买指南",
+    "family": "购买指南｜币种详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/how-to-buy/ethereum",
+    "id": "P072",
+    "page_type": "ETH购买指南",
+    "family": "购买指南｜币种详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/how-to-buy/wrestler",
+    "id": "P073",
+    "page_type": "普通资产购买指南",
+    "family": "购买指南｜币种详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/how-to-buy/bitcoin/argentina",
+    "id": "P074",
+    "page_type": "BTC阿根廷购买页",
+    "family": "购买指南｜地区详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/how-to-buy/bitcoin/brazil",
+    "id": "P075",
+    "page_type": "BTC巴西购买页",
+    "family": "购买指南｜地区详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/ja/how-to-buy/melon-2/brazil",
+    "id": "P076",
+    "page_type": "MELON日语巴西页",
+    "family": "购买指南｜地区详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/ru/how-to-buy/lucia/brazil",
+    "id": "P077",
+    "page_type": "LUCIA俄语巴西页",
+    "family": "购买指南｜地区详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/converter",
+    "id": "P078",
+    "page_type": "换算器入口",
+    "family": "换算器｜入口",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/converter/bitcoin/usd",
+    "id": "P079",
+    "page_type": "BTC/USD换算",
+    "family": "换算器｜资产/计价币组合",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/converter/bitcoin/eur",
+    "id": "P080",
+    "page_type": "BTC/EUR换算",
+    "family": "换算器｜资产/计价币组合",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/id/converter/oceansgallerie-on-sui/eur",
+    "id": "P081",
+    "page_type": "OCEANS/EUR换算",
+    "family": "换算器｜资产/计价币组合",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/how-to-buy/bitcoin/australia",
+    "id": "P082",
+    "page_type": "BTC地区购买页：australia",
+    "family": "购买指南｜地区详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/how-to-buy/bitcoin/mexico",
+    "id": "P083",
+    "page_type": "BTC地区购买页：mexico",
+    "family": "购买指南｜地区详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/how-to-buy/bitcoin/philippines",
+    "id": "P084",
+    "page_type": "BTC地区购买页：philippines",
+    "family": "购买指南｜地区详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/ru/price/page/2318",
+    "id": "P085",
+    "page_type": "俄语深层分页",
+    "family": "币价｜分页",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/price/bitswagger-btcswag",
+    "id": "P086",
+    "page_type": "当前403线索",
+    "family": "币价｜币种详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/ru/price/monero",
+    "id": "P087",
+    "page_type": "跨语言price对照",
+    "family": "币价｜币种详情",
+    "group": "资产介绍与数据模板"
+  },
+  {
+    "url": "https://bingx.com/en/learn",
+    "id": "P088",
+    "page_type": "Academy首页",
+    "family": "Academy｜首页",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/learn/category/trading",
+    "id": "P089",
+    "page_type": "Academy分类",
+    "family": "Academy｜分类",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/learn/topic/bitcoin",
+    "id": "P090",
+    "page_type": "Academy专题",
+    "family": "Academy｜专题",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/learn/guide/spot-trading",
+    "id": "P091",
+    "page_type": "Academy指南",
+    "family": "Academy｜指南",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/learn/article/how-to-start-copy-trading-on-bingx",
+    "id": "P092",
+    "page_type": "Academy文章",
+    "family": "Academy｜文章",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/wiki",
+    "id": "P093",
+    "page_type": "Wiki首页",
+    "family": "Wiki｜首页",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/wiki/detail/demo-trading",
+    "id": "P094",
+    "page_type": "Wiki词条",
+    "family": "Wiki｜词条",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/answers",
+    "id": "P095",
+    "page_type": "Answers首页",
+    "family": "Answers｜首页",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/answers/master-the-app-step-by-step-success",
+    "id": "P096",
+    "page_type": "Answers分类",
+    "family": "Answers｜分类",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/news",
+    "id": "P097",
+    "page_type": "新闻首页",
+    "family": "新闻｜首页",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/news/bitcoin",
+    "id": "P098",
+    "page_type": "新闻分类",
+    "family": "新闻｜分类",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/news/tag/stocks",
+    "id": "P099",
+    "page_type": "新闻标签",
+    "family": "新闻｜标签",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/flash-news",
+    "id": "P100",
+    "page_type": "快讯首页",
+    "family": "快讯｜首页",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/blog",
+    "id": "P101",
+    "page_type": "博客首页",
+    "family": "博客｜首页",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/blog/products",
+    "id": "P102",
+    "page_type": "博客栏目",
+    "family": "博客｜栏目",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/answers/master-the-app-step-by-step-success/can-i-send-bitcoin-from-an-exchange-to-a-private-wallet",
+    "id": "P103",
+    "page_type": "Answers详情",
+    "family": "Answers｜问答详情",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/news/post/-breaking-democrats-just-blocked-the-clarity-act-hours-before-today-s-vote-there-s-no-time-left-to-update-the-draft-and-republican-votes-won-t-be-enough-to-pass-the-bill-needed-the-bill-is-now-practically-rejected-this-is-bad-news-for-bitcoin-and-crypto",
+    "id": "P104",
+    "page_type": "新闻详情",
+    "family": "新闻｜文章",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/flash-news/post/-m-usdc-moved-from-aave-to-unknown-wallet-worth-usd",
+    "id": "P105",
+    "page_type": "快讯详情",
+    "family": "快讯｜详情",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/blog/article/2025-marked-a-turning-point-for-crypto-adoption-in-the-mena-region",
+    "id": "P106",
+    "page_type": "博客文章",
+    "family": "博客｜文章",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/fr/flash-news/post/zcash-sees-liquidation-imbalance-after-short-squeeze-in-zec",
+    "id": "P107",
+    "page_type": "法语快讯对照",
+    "family": "快讯｜详情",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/flash-news/post/zcash-sees-liquidation-imbalance-after-short-squeeze-in-zec",
+    "id": "P108",
+    "page_type": "英文快讯对照",
+    "family": "快讯｜详情",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/blog/spotlight",
+    "id": "P109",
+    "page_type": "博客spotlight",
+    "family": "博客｜栏目",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/learn/article/abbvie-abbv-stock-forecast-and-price-prediction-is-abbv-a-good-investment",
+    "id": "P110",
+    "page_type": "股票预测文章",
+    "family": "Academy｜文章",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/es/learn/article/what-is-bitcoin-dominance-and-how-to-use-it-in-crypto-trading",
+    "id": "P111",
+    "page_type": "视频教学文章",
+    "family": "Academy｜文章",
+    "group": "内容中心"
+  },
+  {
+    "url": "https://bingx.com/en/support",
+    "id": "P112",
+    "page_type": "支持中心首页",
+    "family": "支持中心｜首页",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/en/help",
+    "id": "P113",
+    "page_type": "Help入口",
+    "family": "独立/其他｜help",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/en/support/costs",
+    "id": "P114",
+    "page_type": "费率说明",
+    "family": "支持中心｜独立功能/costs",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/en/support/categories/6706071602457",
+    "id": "P115",
+    "page_type": "旧分类入口",
+    "family": "支持中心｜旧分类",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/en/support/articles/360033286474",
+    "id": "P116",
+    "page_type": "服务协议文章",
+    "family": "支持中心｜文章",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/en/support/new-users/11256997775759",
+    "id": "P117",
+    "page_type": "新手分类",
+    "family": "支持中心｜新手分类",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/en/support/frequent-questions/11256997280783",
+    "id": "P118",
+    "page_type": "FAQ分类",
+    "family": "支持中心｜常见问题分类",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/en/support/notice-center/11256997796495",
+    "id": "P119",
+    "page_type": "公告分类",
+    "family": "支持中心｜公告分类",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/th/support/articles/360045900114",
+    "id": "P120",
+    "page_type": "支持文章数字ID版",
+    "family": "支持中心｜文章",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/th/support/articles/360045900114-perpetual-futures-bingx-margin-trading-terms",
+    "id": "P121",
+    "page_type": "支持文章带slug版",
+    "family": "支持中心｜文章",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/en/support/articles/360034388413",
+    "id": "P122",
+    "page_type": "隐私政策",
+    "family": "支持中心｜文章",
+    "group": "帮助与公告"
+  },
+  {
+    "url": "https://bingx.com/en/rewards",
+    "id": "P123",
+    "page_type": "Rewards Hub",
+    "family": "独立/其他｜rewards",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/events",
+    "id": "P124",
+    "page_type": "Events入口",
+    "family": "独立/其他｜events",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/eventx",
+    "id": "P125",
+    "page_type": "EventX入口",
+    "family": "独立/其他｜eventx",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/act/template/5302?randomId=1871286856",
+    "id": "P126",
+    "page_type": "活动模板",
+    "family": "活动｜template",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/fr/act/task/8845207848",
+    "id": "P127",
+    "page_type": "旧活动任务模板",
+    "family": "活动｜task",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/feedback?referPath=%2Fen",
+    "id": "P128",
+    "page_type": "反馈页",
+    "family": "独立/其他｜feedback",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/accounts/login",
+    "id": "P129",
+    "page_type": "导航登录入口",
+    "family": "账户｜login",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/login",
+    "id": "P130",
+    "page_type": "旧登录入口",
+    "family": "独立/其他｜login",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/register",
+    "id": "P131",
+    "page_type": "注册",
+    "family": "独立/其他｜register",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/buy",
+    "id": "P132",
+    "page_type": "买币旧入口",
+    "family": "独立/其他｜buy",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/exchange",
+    "id": "P133",
+    "page_type": "兑换入口",
+    "family": "独立/其他｜exchange",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/accounts/universal-invite",
+    "id": "P134",
+    "page_type": "邀请入口",
+    "family": "账户｜universal-invite",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/invite?ref0=M3WHAT",
+    "id": "P135",
+    "page_type": "旧邀请参数页",
+    "family": "独立/其他｜invite",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/en/promote",
+    "id": "P136",
+    "page_type": "旧推广入口",
+    "family": "独立/其他｜promote",
+    "group": "活动、账户与买币入口"
+  },
+  {
+    "url": "https://bingx.com/zh-tc",
+    "id": "P137",
+    "page_type": "繁中首页",
+    "family": "首页",
+    "group": "语言、异常路径与子域"
+  },
+  {
+    "url": "https://bingx.com/ar",
+    "id": "P138",
+    "page_type": "阿语首页",
+    "family": "首页",
+    "group": "语言、异常路径与子域"
+  },
+  {
+    "url": "https://bingx.com/es",
+    "id": "P139",
+    "page_type": "西语首页",
+    "family": "首页",
+    "group": "语言、异常路径与子域"
+  },
+  {
+    "url": "https://bingx.com/ru/learn/article/ru-ru/learn/article/what-are-the-top-decentralized-exchanges-dexs-to-know",
+    "id": "P140",
+    "page_type": "畸形learn路径",
+    "family": "Academy｜文章",
+    "group": "语言、异常路径与子域"
+  },
+  {
+    "url": "https://blog.bingx.com/robots.txt",
+    "id": "P141",
+    "page_type": "旧博客robots",
+    "family": "子域｜blog.bingx.com",
+    "group": "语言、异常路径与子域"
+  },
+  {
+    "url": "https://uat.bingx.com/",
+    "id": "P142",
+    "page_type": "UAT首页",
+    "family": "子域｜uat.bingx.com",
+    "group": "语言、异常路径与子域"
+  },
+  {
+    "url": "https://uat-fiat.bingx.com/",
+    "id": "P143",
+    "page_type": "UAT fiat首页",
+    "family": "子域｜uat-fiat.bingx.com",
+    "group": "语言、异常路径与子域"
+  },
+  {
+    "url": "https://ventures.bingx.com/",
+    "id": "P144",
+    "page_type": "ventures首页",
+    "family": "子域｜ventures.bingx.com",
+    "group": "语言、异常路径与子域"
+  },
+  {
+    "url": "https://fiat.bingx.com/en/p2p/merchant-apply",
+    "id": "P145",
+    "page_type": "公开P2P商户入口",
+    "family": "子域｜fiat.bingx.com",
+    "group": "语言、异常路径与子域"
+  },
+  {
+    "url": "https://bingx.com/robots.txt",
+    "id": "P146",
+    "page_type": "主站robots",
+    "family": "技术文件",
+    "group": "基础技术入口"
+  },
+  {
+    "url": "https://bingx.com/sitemap.xml",
+    "id": "P147",
+    "page_type": "总Sitemap",
+    "family": "技术文件",
+    "group": "基础技术入口"
+  },
+  {
+    "url": "https://bingx.com/favicon.ico",
+    "id": "P148",
+    "page_type": "默认图标",
+    "family": "技术文件",
+    "group": "基础技术入口"
+  }
+]

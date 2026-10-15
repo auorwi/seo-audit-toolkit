@@ -1,0 +1,23 @@
+{
+  "mainSelector": "main.main-content",
+  "identitySelector": ".crypto-summary-container .summary-title",
+  "placeholderSelector": ".loading,.skeleton,[aria-busy=\"true\"]",
+  "errorSelector": ".error-page",
+  "timeoutMs": 20000,
+  "stableWindowMs": 1000,
+  "sampleIntervalMs": 250,
+  "dynamicTitle": true,
+  "kinds": [
+    "claim"
+  ],
+  "expectedIdentity": "How to Buy Wrestler (WRESTLER)",
+  "fieldSelectors": {
+    "body": "main.main-content",
+    "title": ".crypto-summary-container .summary-title"
+  },
+  "requiredFields": {
+    "body": {
+      "pattern": "Where Can I Buy Wrestler"
+    }
+  }
+}

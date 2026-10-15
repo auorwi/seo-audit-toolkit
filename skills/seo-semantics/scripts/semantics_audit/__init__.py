@@ -1,0 +1,1 @@
+"""Website semantic structure audit."""
