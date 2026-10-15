@@ -106,6 +106,6 @@ def setup(extras, runtime, system_browser=None):
         elif extra == 'structured':
             directory = runtime / 'structured'
             if not (directory / 'bin/python').is_file():
-                venv.EnvBuilder(with_pip=True).create(directory)
+                venv.EnvBuilder(with_pip=True, symlinks=True).create(directory)
             invoke([str(directory / 'bin/python'), '-m', 'pip', 'install', '-r', str(ROOT / 'runtime/structured-requirements.txt')], stdout=sys.stderr, stderr=sys.stderr)
     return doctor(runtime)

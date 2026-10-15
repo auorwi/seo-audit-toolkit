@@ -1,9 +1,9 @@
 """Extract actual declarations, retaining unsuitable placements and raw targets."""
 import json,re
-from html.parser import HTMLParser
 from urllib.parse import urljoin,urlsplit
 from xml.etree import ElementTree as ET
 from .shared import url_id
+from crawlability.html_compat import HTMLParser
 
 def declaration(attrs,source,channel,locator,base=None,problems=None):
     href=attrs.get('href','');issues=list(problems or []);target=None

@@ -8,7 +8,7 @@ The toolkit supports explicit target-site profiles. It originated as a site-spec
 
 ## Quick start
 
-Requirements: Codex and Python 3.10+ on macOS or Linux. Windows users can use a Linux environment under WSL2; native Windows is not supported in this release. Optional browser checks need Node.js 20+ and npm. Codex/model access is supplied by the user; no paid accounts or credentials are bundled.
+Requirements: Codex and Python 3.10+ on macOS or Linux. The Windows route is Codex CLI, Python and Node running inside WSL2; native Windows is not supported in this release. Optional browser checks need Node.js 20+ and npm. Codex/model access is supplied by the user; no paid accounts or credentials are bundled.
 
 Download and extract a [release ZIP](https://github.com/auorwi/seo-audit-toolkit/releases), or clone:
 

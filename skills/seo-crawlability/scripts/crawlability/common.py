@@ -1,11 +1,15 @@
 """Small, deterministic evidence helpers shared within 003."""
 import math
+import re
 from datetime import datetime,timezone
 from urllib.parse import urlsplit,urlunsplit
 
 def moment(value):
     if not isinstance(value,str):raise ValueError('timestamp_required')
-    try:dt=datetime.fromisoformat(value.replace('Z','+00:00'))
+    normalized=re.sub(r'([+-]\d{2})(\d{2})$',r'\1:\2',value.replace('Z','+00:00').replace(',','.'))
+    # Python 3.10 requires 3/6 fractional digits; preserve microseconds on all versions.
+    normalized=re.sub(r'\.(\d+)(?=[+-]|$)',lambda m:'.'+m[1].ljust(6,'0')[:6],normalized)
+    try:dt=datetime.fromisoformat(normalized)
     except ValueError as e:raise ValueError('invalid_timestamp') from e
     if dt.tzinfo is None:raise ValueError('timestamp_requires_timezone')
     return dt.astimezone(timezone.utc)

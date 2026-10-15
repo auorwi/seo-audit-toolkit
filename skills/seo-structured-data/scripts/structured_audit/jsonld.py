@@ -1,6 +1,7 @@
 """Strict JSON syntax and bounded entity inventory; not a full JSON-LD processor."""
 import json
-from html.parser import HTMLParser
+from . import shared as _shared
+from crawlability.html_compat import HTMLParser
 from urllib.parse import urljoin
 
 class Object(dict):

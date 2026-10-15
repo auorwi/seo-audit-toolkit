@@ -5,9 +5,9 @@ from pathlib import Path as _SitePath
 _site_dependency=_SitePath(__file__).resolve().parents[3]/'seo-crawlability/scripts'
 if str(_site_dependency) not in _site_sys.path:_site_sys.path.insert(0,str(_site_dependency))
 from crawlability.site import get_profile,site_host,site_origin,allowed_hosts,in_scope,require_url,brand_name,business_profile
-from html.parser import HTMLParser
 from urllib.parse import urljoin,urlsplit
 from .shared import url_id
+from crawlability.html_compat import HTMLParser
 VOID={'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
 def compact(text):return ' '.join(text.split())
 

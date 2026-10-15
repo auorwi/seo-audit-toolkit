@@ -1,6 +1,7 @@
 """Read source metadata without pretending to implement browser HTML5 recovery."""
 import re
-from html.parser import HTMLParser
+from . import shared as _shared
+from crawlability.html_compat import HTMLParser
 
 class MetadataParser(HTMLParser):
     def __init__(self,limit):

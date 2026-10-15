@@ -1,8 +1,8 @@
 """Canonical and refresh declarations; no fetching or JavaScript execution."""
 import re
-from html.parser import HTMLParser
 from urllib.parse import urljoin,urlsplit
 from .shared import url_id,header_pairs
+from crawlability.html_compat import HTMLParser
 
 DISQUALIFY={'hreflang','lang','media','type'}
 

@@ -6,7 +6,7 @@
 
 ## 安装
 
-需要 Codex 和 Python 3.10+。支持目标为 macOS／Linux；Windows 使用 WSL2 中的 Linux 环境，本版本不支持原生 Windows。浏览器检查还需要 Node.js 20+ 和 npm。Codex 账号或模型访问由使用者自行准备。
+需要 Codex 和 Python 3.10+。支持目标为 macOS／Linux；Windows 路线是在 WSL2 中运行 Codex CLI、Python 和 Node，本版本不支持原生 Windows。浏览器检查还需要 Node.js 20+ 和 npm。Codex 账号或模型访问由使用者自行准备。
 
 从 [Releases](https://github.com/auorwi/seo-audit-toolkit/releases) 下载 ZIP 并解压，或者：
 

@@ -2,7 +2,7 @@
 import re
 from datetime import datetime,timezone
 from email.utils import parsedate_to_datetime
-from html.parser import HTMLParser
+from .html_compat import HTMLParser
 from .common import header_pairs,moment
 
 ALIASES={'googlebot':{'all','robots','googlebot'},'bingbot':{'all','robots','bingbot'},'yandexbot':{'all','robots','yandex','yandexbot'}}

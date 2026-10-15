@@ -2,9 +2,9 @@
 import json
 import sys
 from pathlib import Path
-from html.parser import HTMLParser
 from urllib.parse import urljoin
 from .shared import url_id
+from crawlability.html_compat import HTMLParser
 
 dependency=Path(__file__).resolve().parents[3]/'seo-canonical-routing/scripts'
 if not (dependency/'canonical_routing/declarations.py').is_file():raise ImportError('Requires sibling seo-canonical-routing')

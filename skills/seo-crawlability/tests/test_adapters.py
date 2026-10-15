@@ -105,6 +105,21 @@ class AdapterTests(CrawlTest):
         self.assertEqual(path.read_bytes(),before)
         self.assertFalse(result['records'][0]['header_capture_complete'])
 
+    def test_inventory_explicit_uri_flag_is_portable_and_connection_is_read_only(self):
+        from unittest.mock import patch
+        mod=self.module('adapters');path=self.database([self.record()]);connect=sqlite3.connect;opened=[]
+        def require_uri(*args,**kwargs):
+            if not kwargs.get('uri'):raise sqlite3.OperationalError('URI parsing is not enabled by default on this build')
+            connection=connect(*args,**kwargs)
+            with self.assertRaisesRegex(sqlite3.OperationalError,'readonly'):
+                connection.execute("INSERT INTO meta VALUES('should_not_write','no')")
+            opened.append(connection);return connection
+        before=path.read_bytes()
+        with patch.object(mod.sqlite3,'connect',side_effect=require_uri):
+            result=mod.load_inventory(path,[PAGE])
+        self.assertEqual(result['records'][0]['url'],PAGE);self.assertEqual(path.read_bytes(),before)
+        with self.assertRaises(sqlite3.ProgrammingError):opened[0].execute('SELECT 1')
+
     def test_inventory_uses_new_header_pairs_over_legacy_lossy_dictionary(self):
         path=self.database([self.record(headers={'x-robots-tag':'nofollow'},headers_all=[['x-robots-tag','noindex'],['x-robots-tag','nofollow']])],modern=True)
         record=self.module('adapters').load_inventory(path,[PAGE])['records'][0]

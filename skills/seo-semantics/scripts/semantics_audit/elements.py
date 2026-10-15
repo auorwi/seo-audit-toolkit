@@ -1,8 +1,8 @@
 """Bounded source-element evidence; not a browser or an HTML5 conformance parser."""
 import hashlib
 from collections import Counter
-from html.parser import HTMLParser
 from .shared import url_id
+from crawlability.html_compat import HTMLParser
 
 VOID={'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
 TEXT_EXCLUDED={'script','style','template'}

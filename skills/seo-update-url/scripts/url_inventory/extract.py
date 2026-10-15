@@ -6,10 +6,10 @@ import io
 import json
 import re
 import xml.etree.ElementTree as ET
-from html.parser import HTMLParser
 from urllib.parse import urlsplit
 
 from .identity import normalize_url
+from crawlability.html_compat import HTMLParser
 
 
 def bounded_decode(body, max_bytes=8_000_000):

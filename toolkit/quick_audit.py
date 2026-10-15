@@ -7,7 +7,6 @@ import re
 import sys
 from collections import deque
 from datetime import datetime, timezone
-from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -17,6 +16,7 @@ from url_inventory.extract import RobotsPolicy, parse_sitemap, _robots_octets
 from url_inventory.identity import normalize_url, redact_url
 from url_inventory.network import HttpClient, safe_headers
 from crawlability.site import _allowed, get_profile
+from crawlability.html_compat import HTMLParser
 
 
 def now():

@@ -2,7 +2,7 @@
 
 ## Choose a release
 
-Use the versioned ZIP under GitHub Releases for a reproducible version. Git is optional. Extract the whole archive; copying one specialist folder is insufficient because some modules use sibling libraries. Python 3.10+ is required. macOS/Linux are the intended platforms. Use Python and Node inside WSL2 for the Windows route; native Windows is rejected explicitly.
+Use the versioned ZIP under GitHub Releases for a reproducible version. Git is optional. Extract the whole archive; copying one specialist folder is insufficient because some modules use sibling libraries. Python 3.10+ is required. macOS/Linux are the intended platforms. For the Windows route, run Codex CLI, Python and Node inside WSL2 so skill discovery and execution use the same Linux environment. Installing into WSL2 does not configure a separate native Windows Codex installation; native Windows execution is rejected explicitly.
 
 From the extracted directory:
 

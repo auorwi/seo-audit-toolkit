@@ -57,7 +57,7 @@ def load_manifest(path):
 def load_inventory(path,urls):
     path=Path(path).resolve()
     if not path.is_file():raise FileNotFoundError(path)
-    db=sqlite3.connect(path.as_uri()+'?mode=ro');db.row_factory=sqlite3.Row
+    db=sqlite3.connect(path.as_uri()+'?mode=ro',uri=True);db.row_factory=sqlite3.Row
     try:
         version=db.execute("SELECT value FROM meta WHERE key='schema_version'").fetchone()
         if not version or version[0]!='1':raise ValueError('unsupported_inventory_version')

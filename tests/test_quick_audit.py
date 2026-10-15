@@ -38,6 +38,12 @@ class QuickAuditTests(unittest.TestCase):
             return {'url': url, 'status': status, 'headers': headers, 'body': body}
         return fetch
 
+    def test_html_attribute_entities_preserve_urls_and_duplicate_last_value(self):
+        from toolkit.quick_audit import Page
+        page=Page();page.feed('<a href="/list?currency=84&currency=85&copy=3">List</a><link rel="canonical" href="/first?a=1&currency=85" href="/last?a=1&amp;b=2">')
+        self.assertEqual(page.links,['/list?currency=84&currency=85&copy=3'])
+        self.assertEqual(page.canonicals,['/last?a=1&b=2'])
+
     def test_budget_and_raw_evidence_and_non_bingx_report(self):
         run = self.load()
         calls = []
